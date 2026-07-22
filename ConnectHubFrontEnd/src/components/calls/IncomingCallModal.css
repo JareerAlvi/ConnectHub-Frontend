@@ -1,0 +1,81 @@
+.modal-overlay{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.45);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.incoming-modal{
+
+    width:420px;
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+
+}
+
+.incoming-modal h2{
+
+    margin-top:0;
+
+    color:#2f80ed;
+
+}
+
+.incoming-modal h3{
+
+    margin-top:20px;
+
+    margin-bottom:5px;
+
+}
+
+.button-group{
+
+    margin-top:30px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+}
+
+.accept-btn{
+
+    background:#27ae60;
+
+}
+
+.accept-btn:hover{
+
+    background:#1d8d4d;
+
+}
+
+.reject-btn{
+
+    background:#eb5757;
+
+}
+
+.reject-btn:hover{
+
+    background:#c93d3d;
+
+}

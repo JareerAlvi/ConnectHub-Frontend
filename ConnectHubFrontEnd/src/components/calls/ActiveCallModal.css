@@ -1,0 +1,85 @@
+.active-overlay{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.45);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:1000;
+
+}
+
+.active-modal{
+
+    width:420px;
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+
+}
+
+.active-modal h2{
+
+    margin-top:0;
+
+    color:#27ae60;
+
+}
+
+.active-modal h3{
+
+    margin-top:20px;
+
+    margin-bottom:10px;
+
+}
+
+.call-timer{
+
+    margin:30px 0;
+
+    font-size:42px;
+
+    font-weight:bold;
+
+    letter-spacing:2px;
+
+}
+
+.end-call-btn{
+
+    background:#e74c3c;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 30px;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+}
+
+.end-call-btn:hover{
+
+    background:#c0392b;
+
+}

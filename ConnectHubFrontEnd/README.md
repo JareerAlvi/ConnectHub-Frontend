@@ -14,15 +14,3 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-## Local backend API
-
-Create a `.env.local` file in the project root and point it to your ASP.NET backend:
-
-```bash
-VITE_API_BASE_URL=https://localhost:7195
-```
-
-Vite exposes only variables that start with `VITE_`, so this is the right place to keep the backend host for local development.
-
-Use the root API host, not the Swagger page URL. For example, set `https://localhost:7195`, then your app will call endpoints like `/api/auth/login` and `/api/account/userDetails`.
