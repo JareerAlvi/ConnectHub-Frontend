@@ -27,3 +27,24 @@ export const endCall = async (callId) => {
 
     return response.data;
 };
+export const startOutgoingCall = async (customerId) => {
+
+    const response = await axios.post(
+        `${API}/outgoing`,
+        {
+            customerId
+        }
+    );
+
+    return response.data;
+
+};
+export const connectOutgoingCall = async (callId) => {
+
+    const response = await axios.put(
+        `${API}/${callId}/connect`
+    );
+
+    return response.data;
+
+};

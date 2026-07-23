@@ -1,0 +1,53 @@
+.customer-card{
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:20px;
+
+    margin-top:25px;
+
+}
+
+.customer-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:15px 0;
+
+    border-bottom:1px solid #eee;
+
+}
+
+.customer-row:last-child{
+
+    border-bottom:none;
+
+}
+
+.customer-row button{
+
+    background:#3498db;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 20px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.customer-row button:hover{
+
+    background:#2980b9;
+
+}

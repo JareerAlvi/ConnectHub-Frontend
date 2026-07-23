@@ -1,0 +1,74 @@
+.sms-overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.45);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:999;
+    backdrop-filter:blur(5px);
+}
+
+.sms-modal{
+    width:430px;
+    height:720px;
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    box-shadow:0 25px 60px rgba(0,0,0,.25);
+}
+
+.sms-header{
+    height:75px;
+    background:#2563EB;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:18px;
+}
+
+.header-left{
+    display:flex;
+    align-items:center;
+    gap:14px;
+}
+
+.avatar{
+    width:46px;
+    height:46px;
+    border-radius:50%;
+    background:white;
+    color:#2563EB;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.user-info h2{
+    margin:0;
+    font-size:18px;
+}
+
+.user-info small{
+    opacity:.85;
+}
+
+.sms-body{
+    flex:1;
+    overflow-y:auto;
+    background:#f2f4f8;
+    padding:20px;
+}
+
+.close-btn{
+    border:none;
+    background:none;
+    color:white;
+    font-size:24px;
+    cursor:pointer;
+}

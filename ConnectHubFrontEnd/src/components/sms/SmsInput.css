@@ -1,0 +1,103 @@
+.sms-input{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:16px;
+
+    background:#fff;
+
+    border-top:1px solid #e5e7eb;
+
+}
+
+.sms-input input{
+
+    flex:1;
+
+    height:48px;
+
+    padding:0 18px;
+
+    border:none;
+
+    border-radius:28px;
+
+    background:#f3f4f6;
+
+    outline:none;
+
+    font-size:15px;
+
+    transition:.2s;
+
+}
+
+.sms-input input:focus{
+
+    background:#eef2ff;
+
+    box-shadow:0 0 0 3px rgba(37,99,235,.15);
+
+}
+
+.send-btn{
+
+    width:48px;
+
+    height:48px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#2563EB;
+
+    color:white;
+
+    font-size:20px;
+
+    cursor:pointer;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    transition:.2s;
+
+    box-shadow:0 8px 20px rgba(37,99,235,.35);
+
+}
+
+.send-btn:hover{
+
+    transform:scale(1.05);
+
+}
+
+.send-btn:active{
+
+    transform:scale(.95);
+
+}
+.sms-input{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+}
+.sms-input input{
+
+    flex:1;
+
+    transition:.3s;
+
+}
